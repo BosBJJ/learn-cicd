@@ -6,7 +6,6 @@ import (
 	"testing"
 )
 
-
 func TestGetAPIKey(t *testing.T) {
 	auth := http.Header{}
 	auth.Add("Authorization", "ApiKey secret")
